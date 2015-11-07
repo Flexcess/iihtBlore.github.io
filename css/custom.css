@@ -1,0 +1,772 @@
+/* IIHT specific styles */
+@font-face {
+    font-family: "Geoslab-Light";
+    src: url(../fonts/geoslab703-lt-bt-light.ttf);
+}
+
+@font-face {
+    font-family: "Geoslab-XBold";
+    src: url(../fonts/geoslab703-xbd-bt-extra-bold.ttf);
+}
+
+@font-face {
+    font-family: "Geoslab-It";
+    src: url(../fonts/geoslab703-lt-bt-light-italic.ttf);
+}
+
+body {
+    font-family: "Geoslab-Light";
+}
+
+.font-geoitalic {
+    font-family: "Geoslab-It";
+}
+
+.font-geolight {
+    font-family: "Geoslab-Light";
+}
+
+.font-geoxbold {
+    font-family: "Geoslab-XBold";
+}
+#fillerTop {
+    height: 100%;
+    vertical-align: bottom;
+}
+
+/* For x axis animations*/
+body{
+    overflow-x: hidden;
+}
+
+#motto {
+    padding: 5px 0;
+    border-top: 2px solid #929BC2;
+    border-bottom: 2px solid #929BC2;
+    letter-spacing: -1.5px;
+}
+
+#motto h2 {
+    color: #929BC2;
+}
+
+#organisation {
+    font-size: 3.5em;
+    color: #2A3A87;
+    font-family: "Geoslab-Light";
+    font-weight: 700;
+}
+
+#contentBG {
+    text-align: center;
+    padding-top: 140px;
+    background: url('../images/main-banner-background.png') center/cover no-repeat;
+}
+
+.catchphrase h2 {
+    font-size: 5em;
+/*    letter-spacing: 2.5px;*/
+    font-family: "Geoslab-XBold";
+}
+
+
+
+.bg-navyblue {
+    background-color: #223A82;
+}
+
+.bg-medblue{
+    background: #0E74BC;
+}
+
+.bg-lightblue {
+    background-color: #1DADE2;
+}
+
+.shadow-navyblue {
+    text-shadow: 5px  3px 5px #223A82;
+}
+
+.shadow-lightblue {
+    text-shadow: 5px  3px 5px #1DADE2;
+}
+
+.text-medblue{
+    color: #0E74BC;
+}
+
+.text-navyblue {
+    color: #223A82;
+}
+
+.text-lightblue {
+    color: #1DADE2;
+}
+
+.bluetile{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+
+#enterpriseAd{
+    background: url(../images/ELS-Banner.png) center/cover no-repeat;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#contact, #enterprise{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#contact textarea, #contact input{
+    background: #efefef;
+    border-radius: 0;
+    height: auto;
+    padding: 10px;
+}
+#contact textarea::-webkit-input-placeholder, #contact input::-webkit-input-placeholder {
+    color: #0E74BC;
+    font-family: "Geoslab-Light"
+}
+
+#contact textarea:-moz-placeholder, #contact input::-moz-placeholder { /* Firefox 18- */
+    color: #0E74BC;
+    font-family: "Geoslab-Light"
+}
+
+#contact textarea:-ms-input-placeholder, #contact input:-ms-input-placeholder {  
+    color: #0E74BC;
+    font-family: "Geoslab-Light"
+}
+
+
+#search{
+    position: absolute;
+    right: 0;
+    top: 32px;
+}
+
+#search img {
+    background: #FEDF15;
+    padding: 4px;
+    border-radius: 15px 0 0 15px;
+    vertical-align: middle;
+    padding-left: 5px;
+    height: 20px;
+    margin-bottom:1px;
+}
+
+#search input {
+    background: #FEDF15;
+    border-radius: 0;
+    border: none;
+    border-left: 3px solid #1D3F89;
+    padding-top: 5px;
+    height: 28px;
+    width: 240px;
+    margin-left: 0;
+    padding-bottom: 5px;
+}
+
+.wings{
+    height: 150px;
+    vertical-align: bottom;
+}
+
+.program-icon{
+    width:200px;
+    height:200px;
+}
+
+#messageBG{
+    height: 625px;
+    background: url(../images/iiht-message.png) center/cover no-repeat;
+}
+
+#messageClients{
+    background: url(../images/iiht-clients.png) center/cover no-repeat;
+}
+
+#messageClients img{
+    width: 120px;
+}
+#messageClients img + img{
+    margin-left: 70px;
+}
+#clientMsg{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 425px;
+}
+
+.contact-phone{
+    bottom:35px;
+    right:0;
+}
+
+.contact-phone .fa {
+    position: absolute;
+    left: -32px;
+    top: -4px;
+    padding: 6px;
+    line-height: 1.6;
+}
+
+.contact-phone span {
+    padding: 5px;
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+
+#mainDivider {
+}
+
+#footer {
+    min-height: 100px;
+    padding-top: 70px;
+    background: #0A5A95;
+}
+
+#footerlinks{
+    padding-left:60px;
+    border-left: 2px solid #FFFFFF;
+    min-height: 320px;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+#contactPhoneIcon{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+#map{
+    height: 700px;
+/*    background: url(../images/google-map.png) center/cover no-repeat;*/
+    background: url(../images/iiht-bangalore-location.jpg) center/cover no-repeat;
+
+}
+#address{
+    height: 400px;
+}
+.navbar {
+    background: #243C82;
+    color: #FFFFFF;
+    min-height: 100px;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    height: 10em;
+}
+
+.navbar #socialHeader{
+    right: 10px;
+    top: 25px;
+    z-index: 5;
+}
+
+.navbar #links {
+    bottom: 64px;
+    margin-left: 70px;
+}
+
+.navbar #links a {
+    color: #FFFFFF;
+}
+
+.navbar #links a::after {
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: url('../images/header-arrow-icon-.png') center no-repeat;
+    margin-left: 3px;
+}
+
+
+.navbar #links a:hover {
+    color: #FFFFFF;
+}
+
+.navbar #links span + span {
+    margin-left: 25px;
+}
+
+/* Utility classes */
+.action {
+    cursor: pointer;
+}
+
+.margin-top-none {
+    margin-top: 0;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-top-l {
+    margin-top: 20px;
+}
+
+.margin-top-xl {
+    margin-top: 50px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-left-l {
+    margin-left: 20px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.bgap {
+    padding-bottom: 10px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.tgap {
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.text-white a{
+    color: #FFFFFF;
+}
+
+.align-top {
+    vertical-align: top;
+}
+.align-middle{
+    vertical-align: middle;
+}
+.align-bottom{
+    vertical-align: bottom;
+}
+.border {
+    border: 1px solid #e5e5e5;
+}
+
+.border-top{  
+    border-top: 10px solid #24A9E1;
+}
+
+.border-bottom{
+    border-bottom: 10px solid #223A82;
+}
+
+.border-top-lightblue{
+    border-top: 10px solid #26AADB;
+}
+
+.border-bottom-lightblue{
+    border-bottom: 10px solid #26AADB;
+}
+
+.bg-white{
+    background: #FFFFFF;
+}
+
+.bg-pale {
+    background: #efefef;
+}
+
+.btn-fa {
+    line-height: 2;
+}
+
+.bg-yellow {
+    background: #FEDF15;
+}
+
+.text-black {
+    color: #333;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.absolute.absolute-center {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  Font classes */
+.font-l {
+    font-size: 1.2em;
+}
+
+.font-xl {
+    font-size: 1.4em;
+}
+
+.font-xxl {
+    font-size: 1.6em;
+}
+
+.font-s {
+    font-size: .7em;
+}
+
+.font-2halfx {
+    font-size: 2.5em;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-2x{
+    font-size: 2em;
+}
+
+.font-3x{
+    font-size: 3em;
+}
+
+.divider{
+    height: 1px;
+    background-color: #42a5f5;
+    margin: 10px 0;
+}
+.divider.divider-thick{
+    height: 2px;
+    background-color: #42a5f5;
+    margin: 10px 0;
+}
+.underline{
+    border-bottom: 1px solid #e5e5e5; 
+    margin-bottom: 2rem;
+}
+
+.circle-icon{
+/*    background: aqua;*/
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 1.3;
+}
+
+
+.card{
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.panel{
+    background: #fff;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.panel .panel-heading{
+    background: #64C1DE;
+    padding: 10px;
+    color: #333;
+}
+
+.panel .panel-body{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.panel .panel-heading a{
+    color: #333;
+}
+
+
+
+/* Generic css */
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    /*background: #F8F8F8;                */
+}
+
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+    /*background: #f5f5f5;*/
+}
+
+a.button:hover {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1100px;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+#company {
+    background: #FFF;
+    width: 302px;
+    height: 180px;
+    box-shadow: 5px 5px 5px rgba(69, 92, 160, 0.35);
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.circle-yellow {
+    width: 30px;
+    height: 30px;
+    background: #FEDF15;
+    z-index: 9;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#partner{    
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: -33px;
+}
+#partner button{
+    background: #C01D2E;
+    border-radius: 20px;
+    border: none;
+    width: 335px;
+    height: 48px;
+}
+
+#partner button:hover{
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+
+/* Custom bullet list */
+ul.bullet {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+ul.bullet li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+ul.bullet li:before {
+    content: "• ";
+    color: #223A82; /* or whatever color you prefer */
+}
+ul.bullet-white{
+    list-style-type: disc;
+}
+ul.bullet-white li {
+    /*clear: both;
+    content: "• ";*/
+    color: #FFFFFF; /* or whatever color you prefer */
+}
+
+/* Horizontal list*/
+ul.list.list-horizontal > li{
+    display: inline;
+}
+
+ul.list.list-horizontal.spacing-md > li + li{
+    margin-left: 10px;
+}
+
+ul.list.list-horizontal.spacing-l > li + li{
+    margin-left: 20px;
+}
+
+#phoneContact{
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    top: -3px;
+    left: -27px;
+}
+
+#location{
+    background: url('../images/3d-world-map.png') top right/69% 739px no-repeat,url('../images/faint-world-map-bg.png') left/cover no-repeat;
+    height: 900px;
+    padding-top: 74px;
+    margin-top: -3px;
+}
+
+#locationMsg{
+    width: 31%;
+    height: 270px;
+}
+
+#locationMsg h3{
+    padding: 13%;
+}
+
+#locationDetail{
+    margin-top: 120px;
+    margin-left: 75px;
+}
+
+.navbar #links{
+    font-size:1.3em;
+}
+
+.navbar #links span::after{
+/*    content:url('../images/blackCarrot.png')*/
+}
+
+#mainSliderLeft{
+    left: 240px;
+    z-index: 99;
+    top: 295px;
+}
+
+#mainSliderRight{
+    right: 240px;
+    z-index: 99;
+    top: 295px;
+}
+
+#coursesSliderLeft{
+    left: 140px;
+    top: 438px;
+}
+
+#coursesSliderRight{
+    right: 140px;
+    top: 438px;
+}
+
+.wreath{
+    height: 200px;
+}
+
+/*    media queries: */
+@media (min-width: 1000px) and (max-width: 1340px) {
+    .navbar #socialHeader {
+        top: 35px;
+        font-size: 1.3em;
+    }
+    
+    ul.list.list-horizontal.spacing-l > li + li {
+        margin-left: 15px;
+    }
+    
+    .wreath{
+        height: 146px;
+    }
+    
+    #mainSliderLeft{
+        left: 90px;
+    }
+    
+    #mainSliderRight{
+        right: 80px;
+    }
+    
+    #coursesSliderLeft{
+        left: 40px;
+    }
+    
+    #coursesSliderRight{
+        right: 40px;
+    }
+    
+    
+    #watchHeader{
+        text-align: left;
+        position: absolute;
+        left: 400px;
+        z-index: 9999;
+        font-size: 0.8em;
+    }
+    
+    #youtubeLink{
+        right: 440px;
+        top: 74px;
+    }
+    
+    .catchphrase h2{
+        font-size: 4em
+    }
+    .navbar #links{
+        margin-left: 40px;
+    }
+    
+    .navbar #links a{
+        font-size: 0.9em
+    }
+    
+    .navbar #links span + span {
+        margin-left: 9px;
+    }
+    .navbar .contact-phone{
+        font-size: 1.1em;
+    }
+    
+    #phoneContact {
+        padding: 2px;
+        top: -3px;
+    }
+    .contact-phone span {
+        padding: 4px;
+        font-size: 0.8em;
+        padding-left: 9px;
+    }
+    .container {
+        width: 85%;
+    }
+}
+
