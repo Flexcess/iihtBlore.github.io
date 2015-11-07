@@ -643,7 +643,7 @@ ul.list.list-horizontal.spacing-l > li + li{
 }
 
 #location{
-    background: url('../images/3d-world-map.png') top right/59% 739px no-repeat,url('../images/faint-world-map-bg.png') left/cover no-repeat;
+    background: url(../images/iiht-global-reach.png) center/cover no-repeat;
     height: 900px;
     padding-top: 74px;
     margin-top: -3px;
