@@ -200,7 +200,7 @@ body{
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 425px;
+    top: 518px;
 }
 
 .contact-phone{
@@ -473,6 +473,10 @@ body{
     font-size: 3em;
 }
 
+.font-4x{
+    font-size: 4em;
+}
+
 .divider{
     height: 1px;
     background-color: #42a5f5;
@@ -647,11 +651,11 @@ ul.list.list-horizontal.spacing-l > li + li{
 
 #locationMsg{
     width: 31%;
-    height: 270px;
+    height: 200px;
 }
 
 #locationMsg h3{
-    padding: 13%;
+    padding: 5% 13% 5% 13%;
 }
 
 #locationDetail{
