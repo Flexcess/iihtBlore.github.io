@@ -129,8 +129,8 @@ body{
     border-right: 1px solid #ebebeb;
 }
 
-#bannerForm .three.columns:before {
-   
+#bannerForm .three.columns {
+    height: 100px;
 }
 
 .bluetile{
