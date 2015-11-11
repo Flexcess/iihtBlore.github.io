@@ -177,32 +177,6 @@ body{
     height:200px;
 }
 
-<<<<<<< HEAD
-=======
-#messageBG{
-    height: 705px;
-    background: url(../images/iiht-message.png) center/cover no-repeat;
-}
-
-#messageClients{
-    background: url(../images/iiht-clients-top.png) center/cover no-repeat;
-}
-
-#messageClients img{
-    width: 120px;
-}
-#messageClients img + img{
-    margin-left: 70px;
-}
-#clientMsg{
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: 518px;
-}
-
->>>>>>> origin/master
 .contact-phone{
     bottom:35px;
     right:0;
@@ -651,60 +625,15 @@ ul.list.list-horizontal.spacing-l > li + li{
     left: -27px;
 }
 
-<<<<<<< HEAD
-=======
-#location{
-    background: url(../images/iiht-global-reach.png) center/cover no-repeat;
-    height: 900px;
-    padding-top: 74px;
-    margin-top: -3px;
-}
-
-#locationMsg{
-    width: 31%;
-    height: 200px;
-}
-
-#locationMsg h3{
-    padding: 5% 13% 5% 13%;
-}
-
-#locationDetail{
-    margin-top: 120px;
-    margin-left: 75px;
-}
-
-.navbar #links{
-    font-size:1.3em;
-}
-
-.navbar #links span::after{
-/*    content:url('../images/blackCarrot.png')*/
-}
-
-#mainSliderLeft{
-    left: 240px;
-    z-index: 99;
-    top: 295px;
-}
-
-#mainSliderRight{
-    right: 240px;
-    z-index: 99;
-    top: 295px;
+#coursesSliderRight{
+    right: 140px;
+    top: 438px;
 }
 
 #coursesSliderLeft{
     left: 140px;
     top: 438px;
 }
-
->>>>>>> origin/master
-#coursesSliderRight{
-    right: 140px;
-    top: 438px;
-}
-
 
 /*    media queries: */
 @media (min-width: 1000px) and (max-width: 1340px) {
