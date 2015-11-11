@@ -8,12 +8,17 @@
     src: url(../fonts/Sansation_Bold.ttf);
 }
 
-.font-sansified{
+@font-face {
+    font-family: "Sansified Light";
+    src: url(../fonts/Sansation_Light.ttf);
+}
+
+.text-sbold{
     font-family: "Sansified Bold";
 }
 
 .text-condensed{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Sansified Light', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -28,6 +33,35 @@ body {
 #fillerTop {
     height: 100%;
     vertical-align: bottom;
+}
+
+.card{
+    background: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #e7e7e7;
+}
+
+.panel{
+    background: #fff;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.panel .panel-heading{
+    background: #64C1DE;
+    padding: 10px;
+    color: #333;
+}
+
+.panel .panel-body{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.panel .panel-heading a{
+    color: #333;
 }
 
 /* For x axis animations*/
@@ -264,6 +298,35 @@ body{
     z-index: 99;
     font-size: 1.3em;
 }
+#footerSocial{
+    right: 120px;
+    z-index: 99;
+    width: 150px;
+}
+
+#footerSocial a{
+   
+}
+
+#footerSocial .fa{
+    color: #BBBBBB;
+    -o-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -webkit-transition: color .5s ease;
+    transition: color .5s ease;
+    width: 15px;
+    text-align: center; 
+    background: rgba(224,224,224,.3);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#footerSocial .fa:hover{
+    color: #26AADB;
+    background: #FFFFFF;
+    cursor: pointer;
+}
 
 #links a, #footer a {
     color: #E0E0E0;
@@ -279,7 +342,6 @@ body{
     color: #FFFFFF;
     font-weight: 700;
     text-decoration: none;
-/*    border-bottom: 1px solid #FFFFFF; */
 }
 
 #links span + span {
@@ -487,39 +549,6 @@ body{
     text-align: center;
     line-height: 1.3;
 }
-
-
-.card{
-    background: #fff;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #e7e7e7;
-}
-
-.panel{
-    background: #fff;
-    margin-top: 10px;
-    border: 1px solid #eee;
-}
-
-.panel .panel-heading{
-    background: #64C1DE;
-    padding: 10px;
-    color: #333;
-}
-
-.panel .panel-body{
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-
-.panel .panel-heading a{
-    color: #333;
-}
-
-
-
 /* Generic css */
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     /*background: #F8F8F8;                */
