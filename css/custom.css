@@ -1,67 +1,37 @@
 /* IIHT specific styles */
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
-
 @font-face {
-    font-family: "Sansified Bold";
-    src: url(../fonts/Sansation_Bold.ttf);
+    font-family: "Geoslab-Light";
+    src: url(../fonts/geoslab703-lt-bt-light.ttf);
 }
 
 @font-face {
-    font-family: "Sansified Light";
-    src: url(../fonts/Sansation_Light.ttf);
+    font-family: "Geoslab-XBold";
+    src: url(../fonts/geoslab703-xbd-bt-extra-bold.ttf);
 }
 
-.text-sbold{
-    font-family: "Sansified Bold";
-}
-
-.text-condensed{
-    font-family: 'Sansified Light', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Raleway', sans-serif;
+@font-face {
+    font-family: "Geoslab-It";
+    src: url(../fonts/geoslab703-lt-bt-light-italic.ttf);
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-
+    font-family: "Geoslab-Light";
 }
 
+.font-geoitalic {
+    font-family: "Geoslab-It";
+}
+
+.font-geolight {
+    font-family: "Geoslab-Light";
+}
+
+.font-geoxbold {
+    font-family: "Geoslab-XBold";
+}
 #fillerTop {
     height: 100%;
     vertical-align: bottom;
-}
-
-.card{
-    background: #fff;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #e7e7e7;
-}
-
-.panel{
-    background: #fff;
-    margin-top: 10px;
-    border: 1px solid #eee;
-}
-
-.panel .panel-heading{
-    background: #64C1DE;
-    padding: 10px;
-    color: #333;
-}
-
-.panel .panel-body{
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-
-.panel .panel-heading a{
-    color: #333;
 }
 
 /* For x axis animations*/
@@ -80,10 +50,26 @@ body{
     color: #929BC2;
 }
 
-#contentBG {
-    background: url('../images/main-banner-background.png') center/cover no-repeat;
-    min-height: 840px;
+#organisation {
+    font-size: 3.5em;
+    color: #2A3A87;
+    font-family: "Geoslab-Light";
+    font-weight: 700;
 }
+
+#contentBG {
+    text-align: center;
+    padding-top: 140px;
+    background: url('../images/main-banner-background.png') center/cover no-repeat;
+}
+
+.catchphrase h2 {
+    font-size: 5em;
+/*    letter-spacing: 2.5px;*/
+    font-family: "Geoslab-XBold";
+}
+
+
 
 .bg-navyblue {
     background-color: #223A82;
@@ -117,61 +103,44 @@ body{
     color: #1DADE2;
 }
 
-#bannerForm{
-    min-width: 580px;
-    background-color: #1C1C1C;
-    opacity: 0.8;
-    height: 150px;
-    border-radius: 3px;
-    padding: 5%;
-    color: #FFFFFF;
-    margin-top: 50px;
-}
-
-#bannerForm input{
-    background-color: #5A5A5A;
-    width: 290px;
-    background-image: url(../images/search_large.png);
-    background-position:right 3px;
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-    color: #FFFFFF;
-}
-
-#bannerForm button{
-    background: #C01D2E;
-    border: none;
-    color: #FFFFFF;
-    -o-transition:color 0.5s ease;
-    -ms-transition:color 0.5s ease;
-    -moz-transition:color 0.5s ease;
-    -webkit-transition:color 0.5s ease;
-    transition:color 0.5s ease;
-    transition-delay: 0.2s;
-}
-
-#bannerForm button:hover{
-    background-color: #FF2139;
-}
-
-#bannerForm input + span{
-    margin-left:20px;
-    margin-right:20px;
-}
-
-#bannerForm .three.columns:not(:last-child){
-    border-right: 1px solid #ebebeb;
-}
-
-#bannerForm .three.columns {
-    height: 100px;
-}
-
 .bluetile{
     width:200px;
     height:200px;
     border-radius:10px;
 }
+
+#enterpriseAd{
+    background: url(../images/ELS-Banner.png) center/cover no-repeat;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#contact, #enterprise{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#contact textarea, #contact input{
+    background: #efefef;
+    border-radius: 0;
+    height: auto;
+    padding: 10px;
+}
+#contact textarea::-webkit-input-placeholder, #contact input::-webkit-input-placeholder {
+    color: #0E74BC;
+    font-family: "Geoslab-Light"
+}
+
+#contact textarea:-moz-placeholder, #contact input::-moz-placeholder { /* Firefox 18- */
+    color: #0E74BC;
+    font-family: "Geoslab-Light"
+}
+
+#contact textarea:-ms-input-placeholder, #contact input:-ms-input-placeholder {  
+    color: #0E74BC;
+    font-family: "Geoslab-Light"
+}
+
 
 #search{
     position: absolute;
@@ -211,6 +180,29 @@ body{
     height:200px;
 }
 
+#messageBG{
+    height: 625px;
+    background: url(../images/iiht-message.png) center/cover no-repeat;
+}
+
+#messageClients{
+    background: url(../images/iiht-clients.png) center/cover no-repeat;
+}
+
+#messageClients img{
+    width: 120px;
+}
+#messageClients img + img{
+    margin-left: 70px;
+}
+#clientMsg{
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 425px;
+}
+
 .contact-phone{
     bottom:35px;
     right:0;
@@ -231,15 +223,12 @@ body{
 }
 
 #mainDivider {
-    height: 25px;
-    border-bottom: 1px solid #E0E0E0;
 }
 
 #footer {
     min-height: 100px;
     padding-top: 70px;
     background: #0A5A95;
-    color: #E0E0E0;
 }
 
 #footerlinks{
@@ -258,93 +247,55 @@ body{
     vertical-align: middle;
 }
 
+#map{
+    height: 700px;
+/*    background: url(../images/google-map.png) center/cover no-repeat;*/
+    background: url(../images/iiht-bangalore-location.jpg) center/cover no-repeat;
 
-#socialHeader{
-    right: 0;
+}
+#address{
+    height: 400px;
+}
+.navbar {
+    background: #243C82;
+    color: #FFFFFF;
+    min-height: 100px;
+    display: block;
+    width: 100%;
+    z-index: 1;
+    height: 10em;
+}
+
+.navbar #socialHeader{
+    right: 10px;
     top: 25px;
     z-index: 5;
 }
 
-#socialHeader ul{
-    margin-right: 50px;
-}
-
-#socialHeader a{
-    color: #D0D0D0;
-    -o-transition:color 0.5s ease;
-    -ms-transition:color 0.5s ease;
-    -moz-transition:color 0.5s ease;
-    -webkit-transition:color 0.5s ease;
-    transition:color 0.5s ease;
-}
-
-#socialHeader a:hover{
-    color: #FFFFFF;
-}
-
-#contactNumHeader{
-    background: #3A3A3C;
-    color: #E0E0E0;
-    border-radius: 15px 0 0 15px;
-    padding-right: 45px;
-    padding-left: 20px;
-    clear: both;
-}
-
-#links {
-    top: 93px;
-    right: 45px;
+.navbar #links {
+    bottom: 64px;
     margin-left: 70px;
-    z-index: 99;
-    font-size: 1.3em;
-}
-#footerSocial{
-    right: 120px;
-    z-index: 99;
-    width: 150px;
 }
 
-#footerSocial a{
-   
-}
-
-#footerSocial .fa{
-    color: #BBBBBB;
-    -o-transition: color .5s ease;
-    -ms-transition: color .5s ease;
-    -moz-transition: color .5s ease;
-    -webkit-transition: color .5s ease;
-    transition: color .5s ease;
-    width: 15px;
-    text-align: center; 
-    background: rgba(224,224,224,.3);
-    padding: 5px;
-    border-radius: 5px;
-}
-
-#footerSocial .fa:hover{
-    color: #26AADB;
-    background: #FFFFFF;
-    cursor: pointer;
-}
-
-#links a, #footer a {
-    color: #E0E0E0;
-    -o-transition: color .5s ease;
-    -ms-transition: color .5s ease;
-    -moz-transition: color .5s ease;
-    -webkit-transition: color .5s ease;
-    transition: color .5s ease;
-}
-
-
-#links a:hover, #footer a:hover {
+.navbar #links a {
     color: #FFFFFF;
-    font-weight: 700;
-    text-decoration: none;
 }
 
-#links span + span {
+.navbar #links a::after {
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 10px;
+    background: url('../images/header-arrow-icon-.png') center no-repeat;
+    margin-left: 3px;
+}
+
+
+.navbar #links a:hover {
+    color: #FFFFFF;
+}
+
+.navbar #links span + span {
     margin-left: 25px;
 }
 
@@ -522,10 +473,6 @@ body{
     font-size: 3em;
 }
 
-.font-4x{
-    font-size: 4em;
-}
-
 .divider{
     height: 1px;
     background-color: #42a5f5;
@@ -549,6 +496,39 @@ body{
     text-align: center;
     line-height: 1.3;
 }
+
+
+.card{
+    background: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.panel{
+    background: #fff;
+    margin-top: 10px;
+    border: 1px solid #eee;
+}
+
+.panel .panel-heading{
+    background: #64C1DE;
+    padding: 10px;
+    color: #333;
+}
+
+.panel .panel-body{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.panel .panel-heading a{
+    color: #333;
+}
+
+
+
 /* Generic css */
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     /*background: #F8F8F8;                */
@@ -571,13 +551,17 @@ a.button:hover {
     top: 0;
 }
 
+.content {
+    padding-top: 80px;
+}
+
 #company {
     background: #FFF;
-    width: 235px;
-    height: 130px;
+    width: 302px;
+    height: 180px;
     box-shadow: 5px 5px 5px rgba(69, 92, 160, 0.35);
     text-align: center;
-    border-radius: 0 0 2px 2px;
+    border-radius: 0 0 5px 5px;
 }
 
 .circle-yellow {
@@ -635,13 +619,8 @@ ul.bullet-white li {
 
 /* Horizontal list*/
 ul.list.list-horizontal > li{
-    display: inline-block;
+    display: inline;
 }
-
-ul.list.list-horizontal > li >*{
-    display: inline-block;
-}
-
 
 ul.list.list-horizontal.spacing-md > li + li{
     margin-left: 10px;
@@ -649,19 +628,6 @@ ul.list.list-horizontal.spacing-md > li + li{
 
 ul.list.list-horizontal.spacing-l > li + li{
     margin-left: 20px;
-}
-
-
-#courses div.center{
-    vertical-align: top;
-}
-
-.bg-pale-light{
-    background: #F5F5F5;
-}
-
-#courses div.center h3{
-    border-bottom: 3px solid #e2e2e2;
 }
 
 #phoneContact{
@@ -672,9 +638,45 @@ ul.list.list-horizontal.spacing-l > li + li{
     left: -27px;
 }
 
-#coursesSliderRight{
-    right: 140px;
-    top: 438px;
+#location{
+    background: url('../images/3d-world-map.png') top right/69% 739px no-repeat,url('../images/faint-world-map-bg.png') left/cover no-repeat;
+    height: 900px;
+    padding-top: 74px;
+    margin-top: -3px;
+}
+
+#locationMsg{
+    width: 31%;
+    height: 270px;
+}
+
+#locationMsg h3{
+    padding: 13%;
+}
+
+#locationDetail{
+    margin-top: 120px;
+    margin-left: 75px;
+}
+
+.navbar #links{
+    font-size:1.3em;
+}
+
+.navbar #links span::after{
+/*    content:url('../images/blackCarrot.png')*/
+}
+
+#mainSliderLeft{
+    left: 240px;
+    z-index: 99;
+    top: 295px;
+}
+
+#mainSliderRight{
+    right: 240px;
+    z-index: 99;
+    top: 295px;
 }
 
 #coursesSliderLeft{
@@ -682,9 +684,18 @@ ul.list.list-horizontal.spacing-l > li + li{
     top: 438px;
 }
 
+#coursesSliderRight{
+    right: 140px;
+    top: 438px;
+}
+
+.wreath{
+    height: 200px;
+}
+
 /*    media queries: */
 @media (min-width: 1000px) and (max-width: 1340px) {
-    #socialHeader {
+    .navbar #socialHeader {
         top: 35px;
         font-size: 1.3em;
     }
@@ -692,7 +703,18 @@ ul.list.list-horizontal.spacing-l > li + li{
     ul.list.list-horizontal.spacing-l > li + li {
         margin-left: 15px;
     }
-  
+    
+    .wreath{
+        height: 146px;
+    }
+    
+    #mainSliderLeft{
+        left: 90px;
+    }
+    
+    #mainSliderRight{
+        right: 80px;
+    }
     
     #coursesSliderLeft{
         left: 40px;
@@ -719,18 +741,18 @@ ul.list.list-horizontal.spacing-l > li + li{
     .catchphrase h2{
         font-size: 4em
     }
-    #links{
+    .navbar #links{
         margin-left: 40px;
     }
     
-    #links a{
+    .navbar #links a{
         font-size: 0.9em
     }
     
-    #links span + span {
+    .navbar #links span + span {
         margin-left: 9px;
     }
-    .contact-phone{
+    .navbar .contact-phone{
         font-size: 1.1em;
     }
     
