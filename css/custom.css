@@ -635,8 +635,13 @@ ul.bullet-white li {
 
 /* Horizontal list*/
 ul.list.list-horizontal > li{
-    display: inline;
+    display: inline-block;
 }
+
+ul.list.list-horizontal > li >*{
+    display: inline-block;
+}
+
 
 ul.list.list-horizontal.spacing-md > li + li{
     margin-left: 10px;
@@ -644,6 +649,19 @@ ul.list.list-horizontal.spacing-md > li + li{
 
 ul.list.list-horizontal.spacing-l > li + li{
     margin-left: 20px;
+}
+
+
+#courses div.center{
+    vertical-align: top;
+}
+
+.bg-pale-light{
+    background: #F5F5F5;
+}
+
+#courses div.center h3{
+    border-bottom: 3px solid #e2e2e2;
 }
 
 #phoneContact{
