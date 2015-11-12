@@ -90,11 +90,11 @@ body{
 }
 
 .bg-medblue{
-    background: #0E74BC;
+    background: #1C9BD2;
 }
 
 .bg-lightblue {
-    background-color: #1DADE2;
+    background-color: #1C9BD2;
 }
 
 .shadow-navyblue {
@@ -106,7 +106,7 @@ body{
 }
 
 .text-medblue{
-    color: #0E74BC;
+    color: #1C9BD2;
 }
 
 .text-navyblue {
@@ -114,7 +114,7 @@ body{
 }
 
 .text-lightblue {
-    color: #1DADE2;
+    color: #1C9BD2;
 }
 
 #bannerForm{
@@ -238,7 +238,7 @@ body{
 #footer {
     min-height: 100px;
     padding-top: 70px;
-    background: #0A5A95;
+    background: #303030;
     color: #E0E0E0;
 }
 
@@ -261,12 +261,13 @@ body{
 
 #socialHeader{
     right: 0;
-    top: 25px;
-    z-index: 5;
+    top: 53px;
+    z-index: 999;
 }
 
 #socialHeader ul{
     margin-right: 50px;
+    margin-top: 15px;
 }
 
 #socialHeader a{
@@ -283,7 +284,7 @@ body{
 }
 
 #contactNumHeader{
-    background: #3A3A3C;
+    background: rgba(58, 58, 60, 0.49);
     color: #E0E0E0;
     border-radius: 15px 0 0 15px;
     padding-right: 45px;
@@ -293,13 +294,15 @@ body{
 
 #links {
     top: 93px;
-    right: 45px;
+/*    right: 45px;*/
+    width:100%;
+    text-align:center;
     margin-left: 70px;
     z-index: 99;
     font-size: 1.3em;
 }
 #footerSocial{
-    right: 120px;
+    right: 150px;
     z-index: 99;
     width: 150px;
 }
@@ -455,8 +458,66 @@ body{
 }
 
 .bg-pale {
-    background: #efefef;
+    background: #E7E8EA;
 }
+
+.text-grey{
+    color: #6D6E72;
+}
+
+.lined-text{
+    margin-top: 50px;
+/*    margin-bottom: 50px;*/
+}
+
+.lined-text h2 {
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 2px solid #6D6E72; 
+        line-height: 0.1em;
+        margin: 10px 0 20px; 
+    } 
+
+.lined-text h2 span { 
+        background:#fff; 
+        padding:0 10px; 
+    }
+
+#icons{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+#icons .text-lightblue{
+/*    margin-bottom:30px;*/
+}
+
+#icons h3, .text-purple{
+    color: #5897CD;
+}
+
+.btn-course{
+    margin-left: 50px;
+    padding: 5px;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-round {
+    border-radius: 10px;
+    text-transform: none;
+}
+
+.btn-teal{
+    padding: 10px;
+    height: auto;
+    background: #52C0A7;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 .btn-fa {
     line-height: 2;
@@ -504,6 +565,10 @@ body{
 
 .font-s {
     font-size: .7em;
+}
+
+.font-slight {
+    font-size: .8em;
 }
 
 .font-2halfx {
@@ -657,7 +722,7 @@ ul.list.list-horizontal.spacing-l > li + li{
 }
 
 .bg-pale-light{
-    background: #F5F5F5;
+    background: #F3F3F5;
 }
 
 #courses div.center h3{
