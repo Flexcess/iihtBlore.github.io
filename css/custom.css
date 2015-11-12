@@ -81,7 +81,7 @@ body{
 }
 
 #contentBG {
-    background: url('../images/main-banner-background.png') center/cover no-repeat;
+    background: url('../images/IIHT-Website-bg.jpg') center/cover no-repeat;
     min-height: 840px;
 }
 
@@ -294,7 +294,7 @@ body{
 
 #links {
     top: 93px;
-/*    right: 45px;*/
+    /*    right: 45px;*/
     width:100%;
     text-align:center;
     margin-left: 70px;
@@ -308,7 +308,7 @@ body{
 }
 
 #footerSocial a{
-   
+
 }
 
 #footerSocial .fa{
@@ -467,21 +467,21 @@ body{
 
 .lined-text{
     margin-top: 50px;
-/*    margin-bottom: 50px;*/
+    /*    margin-bottom: 50px;*/
 }
 
 .lined-text h2 {
-        width: 100%; 
-        text-align: center; 
-        border-bottom: 2px solid #6D6E72; 
-        line-height: 0.1em;
-        margin: 10px 0 20px; 
-    } 
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 2px solid #6D6E72; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+} 
 
 .lined-text h2 span { 
-        background:#fff; 
-        padding:0 10px; 
-    }
+    background:#fff; 
+    padding:0 10px; 
+}
 
 #icons{
     margin-top:100px;
@@ -489,7 +489,7 @@ body{
 }
 
 #icons .text-lightblue{
-/*    margin-bottom:30px;*/
+    /*    margin-bottom:30px;*/
 }
 
 #icons h3, .text-purple{
@@ -607,7 +607,7 @@ body{
 }
 
 .circle-icon{
-/*    background: aqua;*/
+    /*    background: aqua;*/
     width: 20px;
     height: 20px;
     border-radius: 100%;
@@ -753,21 +753,21 @@ ul.list.list-horizontal.spacing-l > li + li{
         top: 35px;
         font-size: 1.3em;
     }
-    
+
     ul.list.list-horizontal.spacing-l > li + li {
         margin-left: 15px;
     }
-  
-    
+
+
     #coursesSliderLeft{
         left: 40px;
     }
-    
+
     #coursesSliderRight{
         right: 40px;
     }
-    
-    
+
+
     #watchHeader{
         text-align: left;
         position: absolute;
@@ -775,30 +775,30 @@ ul.list.list-horizontal.spacing-l > li + li{
         z-index: 9999;
         font-size: 0.8em;
     }
-    
+
     #youtubeLink{
         right: 440px;
         top: 74px;
     }
-    
+
     .catchphrase h2{
         font-size: 4em
     }
     #links{
         margin-left: 40px;
     }
-    
+
     #links a{
         font-size: 0.9em
     }
-    
+
     #links span + span {
         margin-left: 9px;
     }
     .contact-phone{
         font-size: 1.1em;
     }
-    
+
     #phoneContact {
         padding: 2px;
         top: -3px;
