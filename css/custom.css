@@ -181,12 +181,12 @@ body{
 }
 
 #messageBG{
-    height: 625px;
+    height: 740px;
     background: url(../images/iiht-message.png) center/cover no-repeat;
 }
 
 #messageClients{
-    background: url(../images/iiht-clients.png) center/cover no-repeat;
+    background: url(../images/iiht-clients-top.png) center/cover no-repeat;
 }
 
 #messageClients img{
@@ -200,7 +200,7 @@ body{
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 425px;
+    top: 518px;
 }
 
 .contact-phone{
@@ -473,6 +473,10 @@ body{
     font-size: 3em;
 }
 
+.font-4x{
+    font-size: 4em;
+}
+
 .divider{
     height: 1px;
     background-color: #42a5f5;
@@ -639,7 +643,7 @@ ul.list.list-horizontal.spacing-l > li + li{
 }
 
 #location{
-    background: url('../images/3d-world-map.png') top right/69% 739px no-repeat,url('../images/faint-world-map-bg.png') left/cover no-repeat;
+    background: url(../images/iiht-global-reach.png) center/cover no-repeat;
     height: 900px;
     padding-top: 74px;
     margin-top: -3px;
@@ -647,11 +651,11 @@ ul.list.list-horizontal.spacing-l > li + li{
 
 #locationMsg{
     width: 31%;
-    height: 270px;
+    height: 200px;
 }
 
 #locationMsg h3{
-    padding: 13%;
+    padding: 5% 13% 5% 13%;
 }
 
 #locationDetail{
